@@ -29,8 +29,8 @@ import edu.wpi.first.wpilibj.tables.ITable;
 public class BadCameraSystem extends BadSubsystem {
 
     private static BadCameraSystem instance;
-    private static final boolean USE_CAMERA = false; //if false, load from CRIO
-    
+    private static final boolean USE_CAMERA = false; 
+    //if false, load from CRIO
     private AxisCamera imageTrackingCamera;
     
     public static BadCameraSystem getInstance() 
